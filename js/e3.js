@@ -14,6 +14,8 @@ const calculaPrimo = (numero) =>{
        
         if(i % numero ==0){
             return primo = false;
+        }else{
+            return primo;
         }
         
     }
