@@ -8,12 +8,12 @@ Ejercicio 3 - Mumero primo
 
 const calculaPrimo = (numero) =>{
 
-    let primo = true
+    let primo = true;
 
     for (let i = 2; i < numero; i++) {
        
         if(i % numero ==0){
-            primo = false;
+            return primo = false;
         }
         
     }
